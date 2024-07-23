@@ -30,6 +30,30 @@ aside {
     width: 40px;
 }
 
+.dashboard {
+    display: flex;
+    align-content: center;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(254, 246, 223);
+    padding: 0.1rem 0 1.7rem 0.4rem;
+    border-radius: 0.4rem;
+}
+
+.dashboard svg {
+    background-color: rgb(254, 218, 132);
+    padding: 0.1rem;
+    margin: 0.2rem;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.dashboard span {
+    font-weight: 600;
+    color: black;
+
+}
+
 .aside-list div {
     display: flex;
     flex-direction: row;
@@ -38,19 +62,17 @@ aside {
     margin: 1.5rem 0 1rem 2rem;
     padding-top: 1.8rem;
     color: rgb(208, 210, 214);
-
 }
 
-.aside-list img {
-    width: 1rem;
-    height: 1rem;
+.aside-list svg {
+    color: rgb(208, 210, 214);
 }
 
 
 .aside-list .large-icon img {
     width: 180px;
     height: 230px;
-    margin-top: 19rem;
+    margin-top: 8rem;
 }
 
 main {
@@ -128,9 +150,11 @@ width: 200px;
 
 
 .progress {
-    width: 100%;
-    
+    width: 100%; 
 }
+
+
+
 
 .display .bar .progress p {
     display: flex;
@@ -162,9 +186,10 @@ width: 200px;
 .course-details {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
     gap: 0.5rem;
     background-color: white;
+    color: rgb(128, 134, 144);
     border-radius: 10px;
     padding: 0.5rem;
 }
@@ -176,19 +201,26 @@ width: 200px;
     margin-right:3rem;
 }
 
+.fire p {
+    margin-right: 2rem;
+    color: rgb(143, 149, 157);
+
+}
+
 .course-details button {
     background-color: rgb(254, 218, 132);
     border: none;
     border-radius: 5px;
-    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    padding: 0.7rem 2.5rem 0.7rem 2.5rem;
+    color: rgb(168, 150, 108);
 
 }
 
 .right {
     background-color: rgb(244, 244, 242);
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     padding-right: 1rem;
-    gap: 0.5rem;
+    gap: 1.5rem;
     width: 280px;
 }
 
@@ -230,9 +262,7 @@ width: 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 7px;
-    
-    
+    gap: 11px;  
 }
 
 .four_items div {
@@ -271,17 +301,13 @@ width: 200px;
     padding-top: 1rem;
 }
 
-
-
 .subjects > img {
     width: 45px;
     height: 45px;
     border-radius: 20px;
-    align-self: center;
-    margin-right: 10px;
+    margin: 0.7rem 0.5rem;
     
- 
-    
+
 }
 
 .subjects div {
@@ -289,10 +315,13 @@ width: 200px;
     flex-direction: column;
 }
 
+.subjects h4 {
+color: rgb(49, 59, 75);
+}
+
 .subjects div p {
     font-size: 0.8rem;
     color: rgb(208, 210, 214);
-
 }
 
 .view {
